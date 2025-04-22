@@ -5,6 +5,8 @@ type AllType = {
   weight: number;
 };
 
+
+
 function compare<
 T extends Pick<AllType, "name" | "color">,
 U extends Pick<AllType, "position" | "weight">
